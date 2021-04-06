@@ -42,9 +42,24 @@ To install PyViz and its dependencies in your Conda dev environment, complete th
 
 After finishing our models, following are the accuracy scores achieved by each model and corresponding results.
 
-![](snapshots/classification_matrix.png)
+This is the snapshot after running our initial model at epoch = 50
+![](snapshots/Epoch_of_Initial_model.PNG)
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+This is the 2nd snapshot after running our model with alternative parameteres by increasing the number of hidden layers from 3 to 4.
+![](snapshots/Model_perfomance_score.PNG)
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Here is the comparision between all three models. 1st model - 3 hidden layers with activation function is 'relu' and output function is sigmoid. 2nd model - 4 hidden layers with activation function is 'relu' and output function is sigmoid. 3rd model - 1 hidden layer with activation function is 'relu' and output function is sigmoid.
+
+Since the output data is binary so 'sigmoid' is the better function. Mostly ' relu' function is considered good for hidden layers for these kinds.
+
+![](snapshots/performance_between_models.PNG)
+
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-![](snapshots/re-sampling.png)
+
