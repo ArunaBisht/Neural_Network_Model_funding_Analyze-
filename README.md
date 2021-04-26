@@ -1,4 +1,7 @@
 # Neural_Network_Model_funding_Analyze-
+
+![](snapshots/intro_13.PNG)
+
 Venture capital firm receives many funding applications from startups every day. On this project we are creating a neural model to analyze and predict predicts whether applicants will be successful if funded by Venture capital firm. We took the historical data which has 34,000 organizations that have received funding from venture firm , Alphabet Soup over the years. The sata  contains a variety of information about each business, including whether or not it ultimately became successful. With the use of machine learning and neural networks, we used the features in the provided dataset to create a binary classifier model that will predict whether an applicant will become a successful business.
 
 ## Technologies
